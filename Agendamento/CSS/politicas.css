@@ -1,0 +1,65 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+header nav {
+  background: #28a745;
+  padding: 10px;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #d4f5e9;
+}
+
+/* Hero */
+.hero-politicas {
+  background-image: url('../img/politicas.png'); /* Atualize com sua imagem */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-politicas h1 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Conteúdo */
+.section-content {
+  padding: 60px 0;
+}
+
+.section-content h3 {
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+.section-content p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background: #222;
+}
+
+footer p {
+  margin: 0;
+}

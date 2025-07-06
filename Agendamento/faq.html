@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ - Agendamento Fácil</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="CSS/faq.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Início</a> | 
+      <a href="sobre.html">Sobre Nós</a> | 
+      <a href="servicos.html">Serviços</a> | 
+      <a href="contato.html">Contato</a> | 
+      <a href="agendamentos.html">Meus Agendamentos</a> | 
+      <a href="promocoes.html">Promoções</a> | 
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero-faq">
+    <h1>Dúvidas Frequentes</h1>
+  </section>
+
+  <!-- Perguntas -->
+  <section class="container section-content">
+    <h2 class="text-center mb-4">Perguntas e Respostas</h2>
+
+    <div class="accordion" id="faqAccordion">
+
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne">
+              Como faço para agendar um serviço?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#faqAccordion">
+          <div class="card-body">
+            Basta acessar a página de serviços, escolher o que deseja e clicar em "Agendar". Você será direcionado ao formulário.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo">
+              Posso remarcar ou cancelar meu agendamento?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#faqAccordion">
+          <div class="card-body">
+            Sim! Você pode gerenciar seus agendamentos na página "Meus Agendamentos" a qualquer momento.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree">
+              O pagamento é realizado online?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#faqAccordion">
+          <div class="card-body">
+            Não. O pagamento é feito presencialmente ou conforme combinado com o prestador de serviço.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour">
+              É seguro fornecer meus dados pessoais?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" data-parent="#faqAccordion">
+          <div class="card-body">
+            Sim! Nós seguimos rigorosas políticas de privacidade e segurança para proteger todas as suas informações.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="text-center py-4 bg-dark text-white">
+    <p>&copy; 2025 Agendamento Fácil. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

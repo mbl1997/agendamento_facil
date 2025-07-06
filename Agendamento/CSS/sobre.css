@@ -1,0 +1,99 @@
+/* Fonte geral */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar simples */
+header nav {
+  background: #28a745;
+  padding: 10px;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #d4f5e9;
+}
+
+/* Hero */
+.hero-sobre {
+  background-image: url('https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=1600&q=80'); /* Trocar conforme a sua imagem */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-sobre h1 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Conteúdo principal */
+.section-content {
+  padding: 60px 0;
+}
+
+.section-content h2 {
+  color: #28a745;
+}
+
+.section-content p {
+  font-size: 1.1rem;
+}
+
+/* Valores */
+.icon-box {
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.icon-box i {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #28a745;
+}
+
+.icon-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.icon-box h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+/* Call to action */
+.section-content.bg-light h2 {
+  color: #333;
+}
+
+.section-content.bg-light p {
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background: #222;
+}
+
+footer p {
+  margin: 0;
+}

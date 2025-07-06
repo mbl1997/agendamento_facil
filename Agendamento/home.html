@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agendamento Fácil</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- CSS custom -->
+  <link rel="stylesheet" href="CSS/style.css" />
+
+  <!--Icone no navegador-->
+<link rel="shortcut icon" href="icones/agendamento.png" type="image/x-icon">
+
+</head>
+<body>
+ <!-- Carousel Bootstrap com fade e 5 slides -->
+<div id="carouselAgendamento" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselAgendamento" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselAgendamento" data-slide-to="1"></li>
+    <li data-target="#carouselAgendamento" data-slide-to="2"></li>
+    <li data-target="#carouselAgendamento" data-slide-to="3"></li>
+    <li data-target="#carouselAgendamento" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="img/agenda_flexivel.jpg" class="d-block w-100" alt="Agende em segundos">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Agende em segundos</h5>
+        <p>Praticidade e rapidez ao seu alcance.</p>
+      </div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="img/atendimento.png" class="d-block w-100" alt="Atendimentos online">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Atendimentos online</h5>
+        <p>Comodidade e segurança, sem sair de casa.</p>
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Lembretes automáticos">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Receba lembretes automáticos</h5>
+        <p>Não perca nenhum compromisso importante.</p>
+      </div>
+    </div>
+    <!-- Slide 4 -->
+    <div class="carousel-item">
+     <img src="img/humanizado.png" class="d-block w-100" alt="Atendimento humanizado">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Atendimento humanizado</h5>
+        <p>Cuidamos de você com empatia e atenção.</p>
+      </div>
+    </div>
+    <!-- Slide 5 -->
+    <div class="carousel-item">
+      <img src="img/management.png" class="d-block w-100" alt="Agenda flexível">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Agenda flexível</h5>
+        <p>Escolha o melhor horário para você.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselAgendamento" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselAgendamento" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+
+<!--Inicio dos Icones nos Cards-->
+<section class="container py-5" id="cards-menu">
+  <h2 class="text-center mb-4">Navegue pelo site</h2>
+
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <img src="icones/botao-de-informacao.png" alt="Sobre" style="width: 60px;" class="mb-3">
+          <h5 class="card-title">Sobre</h5>
+          <p class="card-text">Saiba mais sobre nós e nossa missão.</p>
+          <a href="sobre.html" class="btn btn-success">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <img src="icones/servico-de-reparacao.png" alt="Serviços" style="width: 60px;" class="mb-3">
+          <h5 class="card-title">Serviços</h5>
+          <p class="card-text">Confira os serviços disponíveis.</p>
+          <a href="servicos.html" class="btn btn-primary">Explorar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <img src="icones/promocoes.png" alt="Promoções" style="width: 60px;" class="mb-3">
+          <h5 class="card-title">Promoções</h5>
+          <p class="card-text">Veja nossas promoções exclusivas.</p>
+          <a href="promocoes.html" class="btn btn-warning text-white">Aproveitar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <img src="icones/solicitacao.png" alt="FAQ" style="width: 60px;" class="mb-3">
+          <h5 class="card-title">FAQ</h5>
+          <p class="card-text">Dúvidas frequentes respondidas.</p>
+          <a href="faq.html" class="btn btn-info">Consultar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <img src="icones/blogger.png" alt="Blog" style="width: 60px;" class="mb-3">
+          <h5 class="card-title">Blog</h5>
+          <p class="card-text">Notícias e dicas exclusivas.</p>
+          <a href="blog.html" class="btn btn-dark">Ler</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <img src="icones/contato.png" alt="Contato" style="width: 60px;" class="mb-3">
+          <h5 class="card-title">Contato</h5>
+          <p class="card-text">Fale com nossa equipe agora mesmo.</p>
+          <a href="contato.html" class="btn btn-danger">Falar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <img src="icones/agendar.png" alt="Meus Agendamentos" style="width: 60px;" class="mb-3">
+          <h5 class="card-title">Meus Agendamentos</h5>
+          <p class="card-text">Veja ou gerencie seus horários já marcados.</p>
+          <a href="agendamentos.html" class="btn btn-success">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <img src="icones/administrador.png" alt="Área Administrativa" style="width: 60px;" class="mb-3">
+          <h5 class="card-title">Área Administrativa</h5>
+          <p class="card-text">Gerencie agendamentos como administrador.</p>
+          <a href="admin.html" class="btn btn-danger">Entrar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <img src="icones/calendario.png" alt="Calendário" style="width: 60px;" class="mb-3">
+          <h5 class="card-title">Calendário</h5>
+          <p class="card-text">Visualize toda a agenda de horários disponíveis.</p>
+          <a href="calendario.html" class="btn btn-primary">Ver calendário</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <img src="icones/politica-de-privacidade.png" alt="Política de Privacidade" style="width: 60px;" class="mb-3">
+          <h5 class="card-title">Política de Privacidade</h5>
+          <p class="card-text">Saiba como cuidamos dos seus dados e segurança.</p>
+          <a href="politica.html" class="btn btn-dark">Ler</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ 
+  <footer>
+    <p>&copy; 2025 Agendamento Fácil. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="JS/script.js"></script>
+</body>
+</html>
